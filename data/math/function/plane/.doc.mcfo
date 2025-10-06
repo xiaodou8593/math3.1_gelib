@@ -9,7 +9,7 @@ _this:{
 	},
 	norm_vec:{
 		<nvec_x,int,1w>,
-		<nvec_x,int,1w>,
-		<nvec_x,int,1w>
+		<nvec_y,int,1w>,
+		<nvec_z,int,1w>
 	}
 }

@@ -13,3 +13,5 @@ _this:{
 		<nvec_z,int,1w>
 	}
 }
+
+其中norm_vec与坐标轴平行
