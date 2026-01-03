@@ -1,7 +1,10 @@
-#math:visual_plane/_update_display
-# 更新平面实体对象的展示实体渲染
+#math:visual_plane/_set_display
+# discarded
+# 更新平面实体对象的展示实体渲染，无插值动画
 # 输入平面实体对象为执行者
 
+data modify storage math:io plane_render merge value {interpolation_duration:0,teleport_duration:0}
+data remove storage math:io plane_render.start_interpolation
 # 2facing算法计算四元数
 execute store result storage math:io xyz[0] double 0.0001 run scoreboard players get @s nvec_x
 execute store result storage math:io xyz[1] double 0.0001 run scoreboard players get @s nvec_y
