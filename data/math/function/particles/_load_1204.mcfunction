@@ -2,6 +2,10 @@
 # 加载mc1.20.4的粒子命令
 
 data modify storage math:class particle_commands set value {\
+	red_dust_tiny:"particle dust 1 0.1 0.1 0.05 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
+	green_dust_tiny:"particle dust 0.001 0.5 0.0 0.05 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
+	blue_dust_tiny:"particle dust 0.001 0.0 1.0 0.05 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
+	purple_dust_tiny:"particle dust 0.580 0.0 0.827 0.05 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
 	red_dust:"particle dust 1 0.1 0.1 0.25 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
 	green_dust:"particle dust 0.001 0.5 0.0 0.25 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
 	blue_dust:"particle dust 0.001 0.0 1.0 0.25 ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a",\
