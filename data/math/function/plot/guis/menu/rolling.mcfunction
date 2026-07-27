@@ -6,6 +6,7 @@ scoreboard players operation temp_r int -= last_slot int
 scoreboard players operation temp_r int %= 9 int
 execute if score temp_r int matches 5..8 run scoreboard players remove temp_r int 9
 scoreboard players operation temp_r int *= 100 int
+scoreboard players operation temp_r int *= -1 int
 
 execute if score temp_r int matches 0 run return fail
 
