@@ -1,5 +1,5 @@
 #math:_version_ge
 # 获取图形库版本
 
-scoreboard players set version_ge int 314
-tellraw @s "当前math_ge库版本为3.1.4"
+scoreboard players set version_ge int 315
+tellraw @s "当前math_ge库版本为3.1.5"
